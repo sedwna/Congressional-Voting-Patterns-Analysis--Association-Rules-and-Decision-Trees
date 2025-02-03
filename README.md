@@ -93,7 +93,7 @@ congressional-voting-analysis/
 ├── data/
 │   └── house-votes-84.data  # Dataset file
 │
-├── main.ipynb     # Script for Association Rule Mining and Decision Tree Classification
+├── main.ipynb               # Script for Association Rule Mining and Decision Tree Classification
 ├── requirements.txt         # List of dependencies
 └── README.md                # Project documentation
 
