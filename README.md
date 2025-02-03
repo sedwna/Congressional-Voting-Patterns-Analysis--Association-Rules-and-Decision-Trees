@@ -41,7 +41,6 @@ The dataset used in this project is the **1984 United States Congressional Votin
 1. Clone the repository:
    ```bash
    git clone https://github.com/sedwna/Congressional-Voting-Patterns-Analysis--Association-Rules-and-Decision-Trees.git
-   cd congressional-voting-analysis
    ```
 
 2. Install the required libraries:
