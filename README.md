@@ -95,7 +95,7 @@ congressional-voting-analysis/
 │
 ├── association_rules.py     # Script for Association Rule Mining and Decision Tree Classification
 ├── requirements.txt         # List of dependencies
-├── README.md                # Project documentation
+└── README.md                # Project documentation
 
 ```
 
