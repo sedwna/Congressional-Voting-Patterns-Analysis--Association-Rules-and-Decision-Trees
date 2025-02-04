@@ -112,11 +112,6 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 
 ---
 
-### **License:**
-This project is licensed under the MIT License. See the [LICENSE](https://archive.ics.uci.edu/dataset/105/congressional+voting+records) file for details.
-
----
-
 ### **Acknowledgments:**
 - The dataset is sourced from the UCI Machine Learning Repository.
 - Special thanks to the open-source community for providing valuable resources and tools.
