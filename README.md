@@ -126,7 +126,7 @@ This project is licensed under the MIT License. See the [LICENSE](https://archiv
 For any questions or feedback, feel free to reach out:
 - **Your Name**
 - **Email**: sajaddehqan2002@gmail.com
-- **GitHub**: [my profile in github](https://github.com/sedwna)
+- **LinkedIn**: [[My LinkedIn Profile](https://www.linkedin.com/in/sajad-dehqan-189a0b258/)]
 
 ---
 
