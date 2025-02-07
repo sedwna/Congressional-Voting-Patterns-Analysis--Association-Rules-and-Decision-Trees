@@ -30,10 +30,30 @@ The project is implemented from scratch without using pre-built libraries for as
 
 ### **Dataset:**
 The dataset used in this project is the **1984 United States Congressional Voting Records**, which includes votes on 16 key issues for 435 Congress members (267 Democrats and 168 Republicans). Each vote is recorded as "yea" (1), "nay" (0), or "unknown" (handled as missing data).
+NOTE: It is important to recognize that "?" in this database does 
+         not mean that the value of the attribute is unknown.  It 
+         means simply, that the value is not "yea" or "nay" (see 
+         "Relevant Information" section above).
 
 #### **Dataset Features:**
 1. **Class Name**: Party affiliation (Democrat or Republican).
-2. **16 Voting Issues**: Including "handicapped-infants", "water-project-cost-sharing", "physician-fee-freeze", etc.
+2. **16 Voting Issues**: Including: 
+    handicapped-infants: 2 (y,n)
+    water-project-cost-sharing: 2 (y,n)
+    adoption-of-the-budget-resolution: 2 (y,n)
+    physician-fee-freeze: 2 (y,n)
+    el-salvador-aid: 2 (y,n)
+    religious-groups-in-schools: 2 (y,n)
+    anti-satellite-test-ban: 2 (y,n)
+    aid-to-nicaraguan-contras: 2 (y,n)
+    mx-missile: 2 (y,n)
+    immigration: 2 (y,n)
+    synfuels-corporation-cutback: 2 (y,n)
+    education-spending: 2 (y,n)
+    superfund-right-to-sue: 2 (y,n)
+    crime: 2 (y,n)
+    duty-free-exports: 2 (y,n)
+    export-administration-act-south-africa: 2 (y,n)
 
 ---
 
@@ -48,20 +68,21 @@ The dataset used in this project is the **1984 United States Congressional Votin
    pip install -r requirements.txt
    ```
 
-3. Run the analysis scripts:
-   - For Association Rule Mining:
-     ```bash
-     python association_rules.py
-     ```
-   - For Decision Tree Classification:
-     ```bash
-     python decision_tree.py
-     ```
+3. Run the analysis notebook:
+   - Open the `main.ipynb` notebook.
+   - Run all cells to preprocess the data, Association rules, and Decision tree.
 
 4. Check the results:
    - Association rules will be displayed in the console.
    - Decision Tree evaluation metrics (accuracy, precision, recall, F1-score) will be printed.
 
+### Example results
+
+![Association rules results](./photo/Association_rules.png)  
+*Association rules*
+
+![Decision Tree results](./photo/Decision_Tree.png)  
+*accuracy, precision, recall, F1-score*
 ---
 
 ### **Implementation Details:**
